@@ -1,38 +1,164 @@
-.App {
-  text-align: center;
+a{
+  text-decoration: none !important;
+  color: inherit !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.dropdown-menu {
+  left: unset !important;
+  right: 0 !important;
+  border-radius: 0 !important;
+  max-width: 370px; 
+  overflow: hidden;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.home{
+  display: flex;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.product-container{
+  display: flex;
+  width: 78%;
+  padding: 5px;
+  flex-wrap: wrap;
+}
+
+.cart{
+  background-color: aqua;
+}
+
+.filters{
+  background-color: #343a40;
+  color: white;
+  padding: 20px;
   display: flex;
   flex-direction: column;
+  gap: 3em;
+  width: 20%;
+  margin: 10px;
+  height: 86vh;
+
+}
+
+.heading-text{
+  font-size: 25px;
+}
+
+.container-filters{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.wrapper-filters{
+  display: flex;
+  gap: 8px;
+}
+
+.filters>button{
+  width: 90%;
+  padding: 10px 20px 10px 20px;
+}
+
+.single-product{
+  position: relative;
+  width:15%;
+  height: max-content;
+  margin: 10px;
+}
+
+.single-product-img{
+  padding: 10%;
+  width: 50%; 
+  height: 50%; 
+}
+
+.header{
+
+}
+
+
+.preloader{
+  background-color: #ffffff;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  z-index: 999999;
+}
+
+.drop-down{
+  display: flex;
+  gap: 18px;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin:5px 5px 0 0;
+  
+  width: 90%;
 }
 
-.App-link {
-  color: #61dafb;
+.drop-down>img{
+  height: 60px;
+  border: 1px solid rgb(104, 104, 104);
+  padding: 3px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.details{
+  display: flex;
+  flex-direction: column;
+}
+
+.dropdown-container{
+  padding: 5px;
+}
+
+.dropdown-wrapper{
+  display: flex;
+  align-items: center;
+}
+
+.drop-down-btn{
+  width: 100%;
+  margin-top: 30px;
+}
+
+.productContainer{
+  width: 80%;
+}
+
+.productContainer-Card{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2em;
+}
+
+
+.productContainer-image>img{
+  height: 90px;
+}
+
+.productContainer-image{
+  display: flex;
+  align-items: center;
+  gap: 2em;
+}
+
+.details-cartPage{
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+
+.left-section{
+  width: 80%;
+  display: flex;
+  gap: 5em;
+  justify-content: space-between;
+}
+
+.left-section{
+  display: flex;
+  align-items: center;
+}
+
+.aifilldelete{
+  cursor: pointer;
 }
