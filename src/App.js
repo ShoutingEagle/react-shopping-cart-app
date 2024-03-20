@@ -140,7 +140,7 @@ function App() {
       <cartContext.Provider value={{ state, dispatch, filterState, filterDispatch }}>
         <Header />
         <Routes>
-          <Route path="/react-shopping-cart" element={<Home />} />
+          <Route path="/react-shopping-cart-app" element={<Home />} />
           <Route path="/cart" element={<Cart />} />
         </Routes>
       </cartContext.Provider>
