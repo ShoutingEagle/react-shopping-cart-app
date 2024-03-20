@@ -61,15 +61,15 @@ a{
 
 .single-product{
   position: relative;
-  width:15%;
+  width:300px;
   height: max-content;
   margin: 10px;
 }
 
 .single-product-img{
-  padding: 10%;
-  width: 50%; 
-  height: 50%; 
+  padding: 10%;  
+  width: 50%;  
+  height: 50%;  
 }
 
 .header{

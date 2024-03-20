@@ -23,7 +23,6 @@ function Home() {
 
     console.log(filteredProducts)
     if( filterState.sort === 'high'){ 
-
       filteredProducts = filteredProducts.sort((a,b) => {
         return b.price-a.price
       });
